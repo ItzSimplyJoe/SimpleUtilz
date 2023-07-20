@@ -1,4 +1,4 @@
-# `simpleutils`.py - Python Utility Library
+# simpleutils.py - Python Utility Library
 `simpleutils` is a versatile Python utility library that offers a wide range of helper functions, classes, and modules to expedite development tasks and simplify common operations. With `simpleutils`, you can streamline your Python projects and enhance productivity through a collection of useful functionalities.
 
 ## Installation
