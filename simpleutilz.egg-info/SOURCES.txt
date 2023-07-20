@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+simpleutilz.egg-info/PKG-INFO
+simpleutilz.egg-info/SOURCES.txt
+simpleutilz.egg-info/dependency_links.txt
+simpleutilz.egg-info/requires.txt
+simpleutilz.egg-info/top_level.txt

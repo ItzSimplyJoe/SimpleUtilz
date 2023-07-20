@@ -1,10 +1,10 @@
-# simpleutils.py - Python Utility Library
-`simpleutils` is a versatile Python utility library that offers a wide range of helper functions, classes, and modules to expedite development tasks and simplify common operations. With `simpleutils`, you can streamline your Python projects and enhance productivity through a collection of useful functionalities.
+# SimpleUtilz.py - Python Utility Library
+`SimpleUtilz` is a versatile Python utility library that offers a wide range of helper functions, classes, and modules to expedite development tasks and simplify common operations. With `SimpleUtilz`, you can streamline your Python projects and enhance productivity through a collection of useful functionalities.
 
 ## Installation
-You can install ``simpleutils`` using pip:
+You can install ``SimpleUtilz`` using pip:
 
-`pip install simpleutils`
+`pip install SimpleUtilz`
 ## Functionality and Usage
 ### File Handling Functions
 `create_directory(directory_path)``
@@ -12,7 +12,7 @@ Create a directory if it does not exist.
 
 
 ```py
-from simpleutils import create_directory
+from SimpleUtilz import create_directory
 
 directory_path = '/path/to/directory'
 create_directory(directory_path)
@@ -21,7 +21,7 @@ create_directory(directory_path)
 Delete a file if it exists.
 
 ```py
-from simpleutils import delete_file
+from SimpleUtilz import delete_file
 
 file_path = '/path/to/file.txt'
 delete_file(file_path)
@@ -32,7 +32,7 @@ Merge multiple dictionaries into a single dictionary.
 
 
 ```py
-from simpleutils import merge_dicts
+from SimpleUtilz import merge_dicts
 
 dict1 = {'a': 1, 'b': 2}
 dict2 = {'c': 3, 'd': 4}
@@ -44,7 +44,7 @@ print(merged_dict)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 Capitalize the first letter of a given string.
 
 ```py
-from simpleutils import capitalize_first_letter
+from SimpleUtilz import capitalize_first_letter
 
 input_string = 'hello world'
 capitalized_string = capitalize_first_letter(input_string)
@@ -54,7 +54,7 @@ print(capitalized_string)  # Output: 'Hello world'
 Remove leading and trailing whitespace from a string.
 
 ```py
-from simpleutils import remove_whitespace
+from SimpleUtilz import remove_whitespace
 
 input_string = '   hello world   '
 cleaned_string = remove_whitespace(input_string)
@@ -65,7 +65,7 @@ print(cleaned_string)  # Output: 'hello world'
 Get the current date and time in a formatted string.
 
 ```py
-from simpleutils import get_formatted_datetime
+from SimpleUtilz import get_formatted_datetime
 
 formatted_time = get_formatted_datetime("%Y-%m-%d")
 print(formatted_time)  # Output: '2023-07-20'
@@ -76,7 +76,7 @@ Log an error message to the console or a file (if configured).
 
 ```py
 import logging
-from simpleutils import log_error
+from SimpleUtilz import log_error
 
 logging.basicConfig(filename='error.log', level=logging.ERROR)
 try:
@@ -90,7 +90,7 @@ except Exception as e:
 Download a file from a given URL and save it to the specified path.
 
 ```py
-from simpleutils import download_file
+from SimpleUtilz import download_file
 
 file_url = 'https://example.com/some_file.txt'
 save_path = '/path/to/save/file.txt'
@@ -100,7 +100,7 @@ download_file(file_url, save_path)
 Extract files from a ZIP archive to the specified directory.
 
 ```py
-from simpleutils import extract_zip
+from SimpleUtilz import extract_zip
 
 zip_file_path = '/path/to/archive.zip'
 extract_to = '/path/to/extract'
@@ -110,7 +110,7 @@ extract_zip(zip_file_path, extract_to)
 Extract files from a TAR archive to the specified directory.
 
 ```py
-from simpleutils import extract_tar
+from SimpleUtilz import extract_tar
 
 tar_file_path = '/path/to/archive.tar.gz'
 extract_to = '/path/to/extract'
@@ -120,7 +120,7 @@ extract_tar(tar_file_path, extract_to)
 Extract the domain name from a given URL.
 
 ```py
-from simpleutils import get_domain_from_url
+from SimpleUtilz import get_domain_from_url
 
 url = 'https://www.example.com/some/page.html'
 domain = get_domain_from_url(url)
@@ -131,7 +131,7 @@ print(domain)  # Output: 'www.example.com'
 Generate a random string of a specified length.
 
 ```py
-from simpleutils import generate_random_string
+from SimpleUtilz import generate_random_string
 
 random_str = generate_random_string(8)
 print(random_str)  # Output: 'JwB45XzQ'
@@ -140,7 +140,7 @@ print(random_str)  # Output: 'JwB45XzQ'
 Check if a given number is a prime number.
 
 ```py
-from simpleutils import is_prime
+from SimpleUtilz import is_prime
 
 number = 17
 if is_prime(number):
@@ -152,7 +152,7 @@ else:
 Load JSON data from a file and return it as a Python dictionary.
 
 ```py
-from simpleutils import load_json
+from SimpleUtilz import load_json
 
 file_path = '/path/to/data.json'
 data = load_json(file_path)
@@ -161,7 +161,7 @@ print(data)  # Output: {'name': 'John Doe', 'age': 30, 'email': 'john@example.co
 `calculate_average(numbers)`
 Calculate the average of a list of numbers.
 ```py
-from simpleutils import calculate_average
+from SimpleUtilz import calculate_average
 
 numbers = [12, 34, 56, 78, 90]
 average = calculate_average(numbers)
@@ -170,7 +170,7 @@ print(average)  # Output: 54.
 `calculate_median(numbers)`
 Calculate the median of a list of numbers.
 ```py
-from simpleutils import calculate_median
+from SimpleUtilz import calculate_median
 
 numbers = [12, 34, 56, 78, 90]
 median = calculate_median(numbers)
@@ -180,7 +180,7 @@ print(median)  # Output: 56
 Flatten a nested list into a single-dimensional list.
 
 ```
-from simpleutils import flatten_list
+from SimpleUtilz import flatten_list
 
 nested_list = [[1, 2, 3], [4, [5, 6]], [7], 8]
 flattened_list = flatten_list(nested_list)
@@ -189,7 +189,7 @@ print(flattened_list)  # Output: [1, 2, 3, 4, 5, 6, 7, 8]
 `remove_duplicates(input_list)`
 Remove duplicates from a list while preserving the order.
 ```py
-from simpleutils import remove_duplicates
+from SimpleUtilz import remove_duplicates
 
 input_list = [1, 2, 2, 3, 4, 3, 5]
 unique_list = remove_duplicates(input_list)
@@ -199,7 +199,7 @@ print(unique_list)  # Output: [1, 2, 3, 4, 5]
 Check if a given string is a valid email address.
 
 ```py
-from simpleutils import is_valid_email
+from SimpleUtilz import is_valid_email
 
 email = 'john@example.com'
 if is_valid_email(email):
@@ -211,7 +211,7 @@ else:
 Check if a given string is a valid URL.
 
 ```py
-from simpleutils import is_valid_url
+from SimpleUtilz import is_valid_url
 
 url = 'https://www.example.com'
 if is_valid_url(url):
@@ -223,7 +223,7 @@ else:
 Check if a given string is a valid IPv4 address.
 
 ```py
-from simpleutils import is_valid_ipv4
+from SimpleUtilz import is_valid_ipv4
 
 ip = '192.168.1.1'
 if is_valid_ipv4(ip):
@@ -235,7 +235,7 @@ else:
 Read a configuration file (e.g., .ini, .yaml) and return it as a dictionary.
 
 ```py
-from simpleutils import read_config_file
+from SimpleUtilz import read_config_file
 
 config_file_path = '/path/to/config.ini'
 config_data = read_config_file(config_file_path)
@@ -245,7 +245,7 @@ print(config_data)
 Write a dictionary as a configuration file.
 
 ```py
-from simpleutils import write_config_file
+from SimpleUtilz import write_config_file
 
 config_dict = {'Section1': {'key1': 'value1', 'key2': 'value2'}, 'Section2': {'key3': 'value3'}}
 file_path = '/path/to/config.ini'
@@ -254,7 +254,7 @@ write_config_file(config_dict, file_path)
 `generate_encryption_key()`
 Generate a new encryption key.
 ```py
-from simpleutils import generate_encryption_key
+from SimpleUtilz import generate_encryption_key
 
 encryption_key = generate_encryption_key()
 print(encryption_key)
@@ -262,7 +262,7 @@ print(encryption_key)
 `encrypt_string(text, key)`
 Encrypt a string using a symmetric encryption algorithm.
 ```py
-from simpleutils import encrypt_string
+from SimpleUtilz import encrypt_string
 
 text = 'This is a secret message.'
 key = b'some_random_key'
@@ -273,7 +273,7 @@ print(encrypted_text)
 Decrypt an encrypted string using the same key.
 
 ```py
-from simpleutils import decrypt_string
+from SimpleUtilz import decrypt_string
 
 encrypted_text = b'encrypted_data_here'
 key = b'some_random_key'
@@ -284,16 +284,16 @@ print(decrypted_text)
 Convert a PDF file to plain text.
 
 ```py
-from simpleutils import convert_pdf_to_text
+from SimpleUtilz import convert_pdf_to_text
 
 pdf_file_path = '/path/to/sample.pdf'
 pdf_text = convert_pdf_to_text(pdf_file_path)
 print(pdf_text)
 ```
 ## Contributing
-Contributions to `simpleutils` are welcome! If you find any bugs, have new ideas, or want to improve the existing functionality, please open an issue or submit a pull request.
+Contributions to `SimpleUtilz` are welcome! If you find any bugs, have new ideas, or want to improve the existing functionality, please open an issue or submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-The `simpleutils` library offers an extensive array of functions to simplify tasks and boost productivity in Python projects. The README.md provides detailed explanations and examples for each function, enabling users to grasp the functionalities swiftly and incorporate them seamlessly into their projects. Should you encounter any issues or have suggestions for improvements, do not hesitate to contribute or reach out to me!
+The `SimpleUtilz` library offers an extensive array of functions to simplify tasks and boost productivity in Python projects. The README.md provides detailed explanations and examples for each function, enabling users to grasp the functionalities swiftly and incorporate them seamlessly into their projects. Should you encounter any issues or have suggestions for improvements, do not hesitate to contribute or reach out to me!

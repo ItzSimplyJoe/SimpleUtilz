@@ -1,7 +1,0 @@
-LICENSE
-setup.py
-simpleutil.egg-info/PKG-INFO
-simpleutil.egg-info/SOURCES.txt
-simpleutil.egg-info/dependency_links.txt
-simpleutil.egg-info/requires.txt
-simpleutil.egg-info/top_level.txt
