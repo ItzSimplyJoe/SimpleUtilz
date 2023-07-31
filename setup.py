@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 # Package metadata
 NAME = 'simpleutilz'
-VERSION = '1.0.1'
+VERSION = '1.0.8'
 DESCRIPTION = 'A versatile Python utility library that offers a wide range of helper functions, classes, and modules to expedite development tasks and simplify common operations'
 URL = 'https://github.com/ItzSimplyJoe/SimpleUtilz'
 AUTHOR = 'ItzSimplyJoe'

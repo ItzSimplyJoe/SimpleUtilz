@@ -1,5 +1,7 @@
 LICENSE
 setup.py
+simpleutilz/__init__.py
+simpleutilz/simpleutilz.py
 simpleutilz.egg-info/PKG-INFO
 simpleutilz.egg-info/SOURCES.txt
 simpleutilz.egg-info/dependency_links.txt

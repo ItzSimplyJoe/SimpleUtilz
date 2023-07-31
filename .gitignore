@@ -1,3 +1,5 @@
 .pypirc
 build
 dist
+*.egg-info
+py-cache
