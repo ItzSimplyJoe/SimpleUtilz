@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 # Package metadata
 NAME = 'simpleutilz'
-VERSION = '1.0.8'
+VERSION = '1.1.0'
 DESCRIPTION = 'A versatile Python utility library that offers a wide range of helper functions, classes, and modules to expedite development tasks and simplify common operations'
 URL = 'https://github.com/ItzSimplyJoe/SimpleUtilz'
 AUTHOR = 'ItzSimplyJoe'
@@ -12,6 +12,18 @@ EMAIL = 'joebostock30@gmail.com'
 INSTALL_REQUIRES = [
     # List any dependencies your package requires here
     'requests',
+    'PyPDF2',
+    'cryptography',
+    'os',
+    'json',
+    'zipfile',
+    'tarfile',
+    'pathlib',
+    'urllib',
+    'logging',
+    're',
+    'configparser',
+
 ]
 
 # Package classifiers (see https://pypi.org/classifiers/)
