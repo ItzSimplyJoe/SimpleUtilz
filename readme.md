@@ -7,7 +7,7 @@ You can install ``SimpleUtilz`` using pip:
 `pip install simpleutilz`
 ## Functionality and Usage
 ### File Handling Functions
-`create_directory(directory_path)``
+`create_directory(directory_path)`
 Create a directory if it does not exist.
 
 
@@ -290,6 +290,79 @@ pdf_file_path = '/path/to/sample.pdf'
 pdf_text = convert_pdf_to_text(pdf_file_path)
 print(pdf_text)
 ```
+
+`Convert Hex to Denary`
+```py
+from simpleutilz.simpleColours import convert_value_to_denary
+
+hexValue = '#ffffff'
+denary = convert_value_to_denary(hexValue, "hex")
+print(denary)
+```
+
+`Convert RGB to Denary`
+```py
+from simpleutilz.simpleColours import convert_value_to_denary
+
+rgbValue = (255, 255, 255)
+denary = convert_value_to_denary(rgbValue, "rgb")
+print(denary)
+```
+
+`Convert RGBA to Denary`
+```py
+from simpleutilz.simpleColours import convert_value_to_denary
+
+rgbaValue = (255, 255, 255, 1)
+denary = convert_value_to_denary(rgbaValue, "rgba")
+print(denary)
+```
+
+`Convert Binary to Denary`
+```py
+from simpleutilz.simpleColours import convert_value_to_denary
+
+binaryValue = '11111111'
+denary = convert_value_to_denary(binaryValue, "binary")
+print(denary)
+```
+
+`Convert RGB code to Colour in English`
+```py
+from simpleutilz.simpleColours import RGB_to_colour
+
+rgbValue = (255, 255, 255)
+colour = RGB_to_colour(rgbValue)
+print(colour)
+```
+
+`Convert Hex code to Colour in English`
+```py
+from simpleutilz.simpleColours import hex_to_colour
+
+hexValue = '#ffffff'
+colour = hex_to_colour(hexValue)
+print(colour)
+```
+
+`Convert RGBA code to Colour in English`
+```py
+from simpleutilz.simpleColours import RGBA_to_colour
+
+rgbaValue = (255, 255, 255, 1)
+colour = RGBA_to_colour(rgbaValue)
+print(colour)
+```
+
+`Convert Binary code to Colour in English`
+```py
+from simpleutilz.simpleColours import binary_to_colour
+
+binaryValue = '11111111'
+colour = binary_to_colour(binaryValue)
+print(colour)
+```
+
 ## Contributing
 Contributions to `SimpleUtilz` are welcome! If you find any bugs, have new ideas, or want to improve the existing functionality, please open an issue or submit a pull request.
 
