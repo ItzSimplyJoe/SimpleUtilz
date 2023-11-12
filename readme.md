@@ -291,7 +291,8 @@ pdf_text = convert_pdf_to_text(pdf_file_path)
 print(pdf_text)
 ```
 
-`Convert Hex to Denary`
+`convert_value_to_denary(hexValue, "hex")`
+Convert Hex to Denary
 ```py
 from simpleutilz.simpleColours import convert_value_to_denary
 
@@ -300,7 +301,8 @@ denary = convert_value_to_denary(hexValue, "hex")
 print(denary)
 ```
 
-`Convert RGB to Denary`
+`convert_value_to_denary(rgbValue, "rgb")`
+Convert RGB to Denary
 ```py
 from simpleutilz.simpleColours import convert_value_to_denary
 
@@ -309,7 +311,8 @@ denary = convert_value_to_denary(rgbValue, "rgb")
 print(denary)
 ```
 
-`Convert RGBA to Denary`
+`convert_value_to_denary(rgbaValue, "rgba")`
+Convert RGBA to Denary
 ```py
 from simpleutilz.simpleColours import convert_value_to_denary
 
@@ -318,7 +321,8 @@ denary = convert_value_to_denary(rgbaValue, "rgba")
 print(denary)
 ```
 
-`Convert Binary to Denary`
+`convert_value_to_denary(binaryValue, "binary")`
+Convert Binary to Denary
 ```py
 from simpleutilz.simpleColours import convert_value_to_denary
 
@@ -327,7 +331,8 @@ denary = convert_value_to_denary(binaryValue, "binary")
 print(denary)
 ```
 
-`Convert RGB code to Colour in English`
+`colour = RGB_to_colour(rgbValue)`
+Convert RGB code to Colour in English
 ```py
 from simpleutilz.simpleColours import RGB_to_colour
 
@@ -336,7 +341,8 @@ colour = RGB_to_colour(rgbValue)
 print(colour)
 ```
 
-`Convert Hex code to Colour in English`
+`hex_to_colour(hexValue)`
+Convert Hex code to Colour in English
 ```py
 from simpleutilz.simpleColours import hex_to_colour
 
@@ -345,7 +351,8 @@ colour = hex_to_colour(hexValue)
 print(colour)
 ```
 
-`Convert RGBA code to Colour in English`
+`RGBA_to_colour(rgbaValue)`
+Convert RGBA code to Colour in English
 ```py
 from simpleutilz.simpleColours import RGBA_to_colour
 
@@ -354,7 +361,8 @@ colour = RGBA_to_colour(rgbaValue)
 print(colour)
 ```
 
-`Convert Binary code to Colour in English`
+`binary_to_colour(binaryValue)`
+Convert Binary code to Colour in English
 ```py
 from simpleutilz.simpleColours import binary_to_colour
 
